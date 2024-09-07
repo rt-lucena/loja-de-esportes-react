@@ -4,8 +4,8 @@ const Nav=()=>{
     return (
         <>
         <Link to = "/">Home</Link>
-        <Link to = "/contato">Produtos</Link>
-        <Link to = "/produtos">Contato</Link>
+        <Link to = "/contato">Contato</Link>
+        <Link to = "/produtos">Produtos</Link>
         <Link to = "/sobre">Sobre</Link>
         </>
     )
