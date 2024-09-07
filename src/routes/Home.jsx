@@ -1,6 +1,6 @@
 // Home.jsx
 import React, { useState } from 'react';
-import { HomeWrapper, Banner, Testimonials, NewsletterSection } from '../css/HomeWrapper'; // Ajuste o caminho conforme necessário
+import { HomeWrapper, Banner, Testimonials, NewsletterSection } from '../css/HomeWrapper';
 
 const Home = () => {
     const [email, setEmail] = useState('');
