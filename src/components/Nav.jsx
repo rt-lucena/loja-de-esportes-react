@@ -1,13 +1,14 @@
-import {Link} from 'react-router-dom'
+import { NavWrapper, StyledLink } from '../css/NavWrapper';
 
-const Nav=()=>{
+const Nav = () => {
     return (
-        <>
-        <Link to = "/">Home</Link>
-        <Link to = "/contato">Contato</Link>
-        <Link to = "/produtos">Produtos</Link>
-        <Link to = "/sobre">Sobre</Link>
-        </>
-    )
+        <NavWrapper>
+            <StyledLink to="/">Home</StyledLink>
+            <StyledLink to="/contato">Contato</StyledLink>
+            <StyledLink to="/produtos">Produtos</StyledLink>
+            <StyledLink to="/sobre">Sobre</StyledLink>
+        </NavWrapper>
+    );
 }
-export default Nav
+
+export default Nav;
