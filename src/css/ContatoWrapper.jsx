@@ -2,15 +2,21 @@ import styled from 'styled-components';
 
 export const ContatoWrapper = styled.div`
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #e0e0e0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
 `;
 
 export const FormGroup = styled.div`
-    margin-bottom: 15px;
+    margin: 15px 15px;
 `;
 
 export const Label = styled.label`
