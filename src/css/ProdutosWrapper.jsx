@@ -5,6 +5,12 @@ export const ProdutosWrapper = styled.div`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
 `;
 
 export const Card = styled.div`
