@@ -1,4 +1,4 @@
-import { ProdutosWrapper, Card, CardTitle, CardDescription, CardImage } from '../css/ProdutosWrapper';
+import { Titulo, ProdutosWrapper, Card, CardTitle, CardDescription, CardImage } from '../css/ProdutosWrapper';
 import Luvas from '../assets/Luvas.jpg'
 import Placar from '../assets/Placar.jpg'
 import Tenis from '../assets/Tenis.jpg'
@@ -6,7 +6,7 @@ import Tenis from '../assets/Tenis.jpg'
 const Produtos = () => {
     return (
         <ProdutosWrapper>
-            <h1>Produtos</h1>
+            <Titulo>Produtos</Titulo>
             <Card>
                 <CardImage src={Luvas} alt="Produto 1" />
                 <CardTitle>LUVA DE GOLEIRO POKER CHAMPION 8 EXTENDED</CardTitle>
