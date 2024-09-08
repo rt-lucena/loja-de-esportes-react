@@ -34,7 +34,15 @@ export const Testimonials = styled.section`
         font-size: 28px;
         margin-bottom: 20px;
         color: #333;
+        text-align: center;
     }
+`;
+
+export const ClientImage = styled.img`
+    width: 40%;
+    height: 480px;
+    border-radius: 4px;
+    margin-bottom: 15px;
 `;
 
 export const NewsletterSection = styled.section`
