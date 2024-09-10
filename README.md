@@ -20,9 +20,7 @@ Este é um projeto de um site dinâmico desenvolvido para uma loja de esportes, 
 ## Funcionalidades
 
 - Navegação intuitiva e responsiva.
-- Catálogo de produtos com filtros e buscas.
-- Sistema de carrinho de compras.
-- Área de administração para gerenciar produtos e pedidos.
+- Catálogo de produtos.
 
 ## Instalação
 
